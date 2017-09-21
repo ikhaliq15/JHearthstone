@@ -14,7 +14,7 @@ Here are some images from the game (yea, i know it looks like garbage).
 This isn't different from Metastone. I have actually contributed a bit to the Metastone repositroy. I just wanted to learn about creating a multiplayer game and Hearthstone is a good example of one. Metastone is the much better version of this and I recommend you check it ouy and this sort of stuff interests you. The community and features over there are super incredible. 
 
 ## Current State
-Currently, I have the basic stuff down. The client and server are basically done. They can talk to each other. You can play cards, attack, and win game. The interactions that don't work are event triggers, targeting entities, and spells/weapons.
+The game is currently in a fairly well developed state. The next step is to add polish and finetune everything. Then, slowly add new cards to the game. 
 
 ## Contributions
 If you want to contribute, please feel free. Below are a list of things that need to be done. Lots of stuff to do.
