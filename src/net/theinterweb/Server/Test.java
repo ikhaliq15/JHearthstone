@@ -1,5 +1,6 @@
 package net.theinterweb.Server;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -7,19 +8,15 @@ import org.json.simple.parser.ParseException;
 
 public class Test {
 	public static void main(String args[]) throws ParseException{
-		String s = "Draw 4 cards. Summon two 1/1 imps. Deal 3 damage to your hero. Summon two 1/1 Boom Bots. Overload: (1). Deal 3 damage to ALL characters. Deal 1 damage to all other characters. Deal 5 damage to all enemy minions.".toLowerCase();
-		System.out.println(getCommands(s));
-//		Card c = new Card("Novice Engineer");
-//		for (int i = 0; i < c.getEffects().size(); i++){
-//			if (c.getEffects().get(i).get(0).equals("battlecry")){
-//				ArrayList<String> cmds = getCommands(c.getEffects().get(i).get(1));
-//				for (int j = 0; j < cmds.size(); j++){
-//					String cmd = cmds.get(j);
-//					ArrayList<String> t = split(cmd, ':');
-//					System.out.println(t);
-//				}
-//			}
-//		}
+		ArrayList<String> hand = new ArrayList<>();
+		hand.add("Northshire Cleric");
+		hand.add("Claw");
+		hand.add("Fiery War Axe");
+		hand.add("Moonfire");
+		for (int i = 0; i < 10; i++) {
+			int random = (int) (Math.random() * hand.size());
+			System.out.println(hand.get(random));
+		}
 	}
 	
 	public static ArrayList<String> split(String s, char r){
