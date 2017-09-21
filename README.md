@@ -20,8 +20,5 @@ Currently, I have the basic stuff down. The client and server are basically done
 If you want to contribute, please feel free. Below are a list of things that need to be done. Lots of stuff to do.
 
 TODO LIST
-- ADD MENU
-- ADD SUPPORT FOR MULTIPLE GAMES ON ONE SERVER
-- ADD ABILITY TO TARGET ENTITIES
-- ADD SPELLS/SECRETS/QUESTS/WEAPONS
-- MAKE UI LOOK BETTER
+- ADD SECRETS/QUESTS
+- MAKE UI LOOK BETTER (Maybe using a web client or Love2D)
