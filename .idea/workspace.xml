@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f689a34-0ff9-4d07-acc6-04870de28e9e" name="Default Changelist" comment="" />
+    <list default="true" id="1f689a34-0ff9-4d07-acc6-04870de28e9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/client/ClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/config/ConfigUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/shared/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JHearthstone2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JHearthstone2.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1UttGWPGm5gSvI22oQs5BTx1Bwa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +50,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.imrankhaliq.jhearthstone.server.ServerMain" />
+      <module name="JHearthstone2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.imrankhaliq.jhearthstone.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -40,10 +99,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576187623116</updated>
+      <workItem from="1576187624374" duration="1243000" />
+      <workItem from="1576189175114" duration="2443000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="160" key="#Project_Structure" timestamp="1576190311364">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="439" y="160" key="#Project_Structure/0.23.1680.943@0.23.1680.943" timestamp="1576190311364" />
+    <state x="304" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576190329732">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="304" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.943@0.23.1680.943" timestamp="1576190329732" />
+    <state x="555" y="304" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576190941730">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="555" y="304" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.943@0.23.1680.943" timestamp="1576190941730" />
+    <state x="460" y="190" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576188368853">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="460" y="190" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.943@0.23.1680.943" timestamp="1576188368853" />
+    <state width="1638" height="136" key="GridCell.Tab.0.bottom" timestamp="1576191631815">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state width="1638" height="136" key="GridCell.Tab.0.bottom/0.23.1680.943@0.23.1680.943" timestamp="1576191631815" />
+    <state width="1638" height="136" key="GridCell.Tab.0.center" timestamp="1576191631814">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state width="1638" height="136" key="GridCell.Tab.0.center/0.23.1680.943@0.23.1680.943" timestamp="1576191631814" />
+    <state width="1638" height="136" key="GridCell.Tab.0.left" timestamp="1576191631814">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state width="1638" height="136" key="GridCell.Tab.0.left/0.23.1680.943@0.23.1680.943" timestamp="1576191631814" />
+    <state width="1638" height="136" key="GridCell.Tab.0.right" timestamp="1576191631814">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state width="1638" height="136" key="GridCell.Tab.0.right/0.23.1680.943@0.23.1680.943" timestamp="1576191631814" />
+    <state x="328" y="76" key="SettingsEditor" timestamp="1576190424083">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="328" y="76" key="SettingsEditor/0.23.1680.943@0.23.1680.943" timestamp="1576190424083" />
+    <state x="234" y="117" key="new project wizard" timestamp="1576188198542">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="234" y="117" key="new project wizard/0.23.1680.943@0.23.1680.943" timestamp="1576188198542" />
   </component>
 </project>
