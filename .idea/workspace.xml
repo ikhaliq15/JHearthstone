@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f689a34-0ff9-4d07-acc6-04870de28e9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/client/ClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/config/ConfigUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/shared/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ConnectionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JHearthstone2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JHearthstone2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ServerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +56,7 @@
       <module name="JHearthstone2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.imrankhaliq.jhearthstone.server.*" />
+          <option name="PATTERN" value="me.imrankhaliq.jhearthstone.server.ConnectionManager" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
