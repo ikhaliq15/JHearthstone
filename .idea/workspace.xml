@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f689a34-0ff9-4d07-acc6-04870de28e9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/UserConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JHearthstone2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JHearthstone2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/imrankhaliq/jhearthstone/server/config/Config.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,22 +116,22 @@
       <screen x="0" y="23" width="1680" height="943" />
     </state>
     <state x="460" y="190" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.943@0.23.1680.943" timestamp="1576188368853" />
-    <state width="1638" height="136" key="GridCell.Tab.0.bottom" timestamp="1576191631815">
+    <state width="1638" height="136" key="GridCell.Tab.0.bottom" timestamp="1576212163931">
       <screen x="0" y="23" width="1680" height="943" />
     </state>
-    <state width="1638" height="136" key="GridCell.Tab.0.bottom/0.23.1680.943@0.23.1680.943" timestamp="1576191631815" />
-    <state width="1638" height="136" key="GridCell.Tab.0.center" timestamp="1576191631814">
+    <state width="1638" height="136" key="GridCell.Tab.0.bottom/0.23.1680.943@0.23.1680.943" timestamp="1576212163931" />
+    <state width="1638" height="136" key="GridCell.Tab.0.center" timestamp="1576212163930">
       <screen x="0" y="23" width="1680" height="943" />
     </state>
-    <state width="1638" height="136" key="GridCell.Tab.0.center/0.23.1680.943@0.23.1680.943" timestamp="1576191631814" />
-    <state width="1638" height="136" key="GridCell.Tab.0.left" timestamp="1576191631814">
+    <state width="1638" height="136" key="GridCell.Tab.0.center/0.23.1680.943@0.23.1680.943" timestamp="1576212163930" />
+    <state width="1638" height="136" key="GridCell.Tab.0.left" timestamp="1576212163929">
       <screen x="0" y="23" width="1680" height="943" />
     </state>
-    <state width="1638" height="136" key="GridCell.Tab.0.left/0.23.1680.943@0.23.1680.943" timestamp="1576191631814" />
-    <state width="1638" height="136" key="GridCell.Tab.0.right" timestamp="1576191631814">
+    <state width="1638" height="136" key="GridCell.Tab.0.left/0.23.1680.943@0.23.1680.943" timestamp="1576212163929" />
+    <state width="1638" height="136" key="GridCell.Tab.0.right" timestamp="1576212163930">
       <screen x="0" y="23" width="1680" height="943" />
     </state>
-    <state width="1638" height="136" key="GridCell.Tab.0.right/0.23.1680.943@0.23.1680.943" timestamp="1576191631814" />
+    <state width="1638" height="136" key="GridCell.Tab.0.right/0.23.1680.943@0.23.1680.943" timestamp="1576212163930" />
     <state x="328" y="76" key="SettingsEditor" timestamp="1576190424083">
       <screen x="0" y="23" width="1680" height="943" />
     </state>

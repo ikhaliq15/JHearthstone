@@ -5,16 +5,16 @@ import com.google.gson.JsonObject;
 
 public class Config {
 
-    private JsonObject jsonConfig;
+    private JsonObject mJsonConfig;
     private int mPort;
 
     public Config() {
-        this.jsonConfig = new JsonObject();
+        this.mJsonConfig = new JsonObject();
         this.setPort(0);
     }
 
     public Config(JsonObject config) {
-        this.jsonConfig = config;
+        this.mJsonConfig = config;
         this.mPort = config.get("port").getAsInt();
     }
 
@@ -23,11 +23,11 @@ public class Config {
     }
 
     public void setPort(int mPort) {
-        this.jsonConfig.addProperty("port", mPort);
+        this.mJsonConfig.addProperty("port", mPort);
         this.mPort = mPort;
     }
 
     public String toJSONString() {
-        return this.jsonConfig.toString();
+        return this.mJsonConfig.toString();
     }
 }

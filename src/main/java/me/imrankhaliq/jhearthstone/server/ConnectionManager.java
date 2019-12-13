@@ -1,44 +1,26 @@
 package me.imrankhaliq.jhearthstone.server;
 
-import java.io.BufferedInputStream;
-import java.io.DataInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 
 public class ConnectionManager {
-    private Socket socket = null;
-    private ServerSocket server = null;
-    private DataInputStream in = null;
+
+    ArrayList<UserConnection> userConnections;
 
     public ConnectionManager(int port) {
         try {
-            server = new ServerSocket(port);
-            System.out.println("Server started");
-
-            System.out.println("Waiting for a client ...");
-
-            socket = server.accept();
-            System.out.println("Client accepted");
-
-            in = new DataInputStream(
-                    new BufferedInputStream(socket.getInputStream()));
-
-            String line = "";
-
-            while (!line.equals("Over")) {
-                try {
-                    line = in.readUTF();
-                    System.out.println(line);
-
-                } catch (IOException i) {
-                    System.out.println(i);
-                }
+            ServerSocket server = new ServerSocket(port);
+            userConnections = new ArrayList<>();
+            while (true) {
+                Socket incomingConnection = server.accept();
+                InputStream incomingDataStream = incomingConnection.getInputStream();
+                OutputStream outgoingDataStream = incomingConnection.getOutputStream();
+                DataInputStream inputStream = new DataInputStream(new BufferedInputStream(incomingDataStream));
+                DataOutputStream outputStream = new DataOutputStream(new BufferedOutputStream(outgoingDataStream));
+                new UserConnection(inputStream, outputStream);
             }
-            System.out.println("Closing connection");
-
-            socket.close();
-            in.close();
         } catch (IOException i) {
             System.out.println(i);
         }
